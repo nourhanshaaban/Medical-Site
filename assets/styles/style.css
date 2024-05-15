@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Philosopher";
+    src: url("../fonts/OFL.");
+    src: url("CustomFont.woff") format("woff"),
+    url("CustomFont.otf") format("opentype"),
+    url("CustomFont.svg#filename") format("svg");
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 18px;
+    font-family: Phoilosopher;
+}
+
+/*              start general styles              */
+.mr{
+    margin-right: 8rem;
+}
+.ml{
+    margin-left: 8rem;
+}
+.mb{
+    margin-bottom: 2.5rem;
+}
+.mt{
+    margin-top: 7rem;
+}
+.pt{
+    padding-top: 2.5rem;
+}
+.text-center{
+    text-align: center;
+}
+.bold{
+    font-weight: 700;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    border-radius: 3rem;
+    line-height: 3rem;
+    border: none;
+    width: 9rem;
+    text-align: center;
+}
+p{
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+.p-grey{
+    color: #7D7987;
+}
+.p-white{
+    color: #FFFFFF;
+}
+button {
+    border-radius: 3rem;
+    line-height: 3rem;
+    border: none;
+    width: 9rem;
+}
+
+.b-link{
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border-radius: 3rem;
+    line-height: 3rem;
+    width: 9rem;
+}
+.b-link:hover{
+    background-color: #458FF6;
+    color: #FFFFFF;
+}
+.line{
+    width: 3.1rem;
+    border-radius: .5rem;
+    margin: 1.2rem 0rem;
+}
+.line-black{
+    border: 2px solid #000000;
+}
+.line-white{
+    border: 2px solid #FFFFFF;
+}
+
+.width-30{
+    width: 30%;
+}
+h2{
+    font-size: 2.3rem;
+    line-height: 3.1rem;
+}
+
+/*              end general styles              */
+
+/*              start style navbar              */
+.navbar-links{
+    width: 60%;
+    padding-right: 2rem;
+}
+
+.navbar-links a{
+    color: #7D7987;
+    width: 19%;
+    text-align: center;
+}
+.navbar-links a:hover{
+    font-weight: 700;
+    color: #1F1534;
+}
+/*              end style navbar                     */
+
+/*              start style section home             */
+.element{
+    position: absolute;
+    top: 8rem;
+    left: -.3rem;
+    overflow: hidden;
+}
+.header-text{
+    position: relative;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+}
+.btn-blue{
+    color: #FFFFFF;
+    background-color: #458FF6;
+}
+.btn-blue:hover{
+    background: linear-gradient(to right,#458FF6 , #458ff6d6 ,#458ff6a4, #FFFFFF);
+}
+.illustration{
+    width: 693px;
+    height: 598px;
+}
+/*              end style section home             */
+
+/*              start style section services             */
+.services{
+    position: relative;
+    padding-top: 7.5rem;
+    align-items: center;
+    text-align: center;
+}
+.Frame{
+    position: absolute;
+    left: -8rem;
+    top: 10rem;
+    z-index: -5;
+}
+.service-sections{
+    width: 58rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.service-card{
+    width: 17rem;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    padding: 3rem 1.5rem;
+    margin-bottom: 1.6rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    box-shadow: 10px 40px 50px #E5E9F6;
+}
+.service-card div{
+    height: 5.27rem;
+    width: 3.85rem;
+    object-fit: cover;
+}
+h3{
+    margin: 1.4rem 0rem .5rem;
+}
+.element-sec2{
+    position: absolute;
+    top: 39.6rem;
+    right: 2rem;
+    z-index: -5;
+}
+
+/*              end style section services               */
+
+/*              start style section dottes between sections               */
+.dottes-contenaier{
+    position: relative;
+}
+.dottes-contenaier .dottes{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 5rem;
+    overflow: hidden;
+}
+/*              end style section dottes between sections              */
+
+/*              start style section review               */
+.review-user{
+    background: linear-gradient(to top right,#5A98F2,#67c2f399);
+    border-radius: 1.4rem;
+    margin: auto 0;
+    padding: 4rem 5rem;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    width: 63rem;
+    position: relative;
+}
+.element-4{
+    position: absolute;
+    top: .4rem;
+    right: 0rem;
+    overflow: hidden;
+    width: 5rem;
+    height: 5.1rem;
+    z-index: -1;
+}
+
+.personal-data{
+    width: 40%;
+}
+
+.review-text{
+    width: 44%;
+}
+.element-5{
+    position: absolute;
+    bottom: 1.5rem;
+    left: -3rem;
+    overflow: hidden;
+    z-index: -2;
+}
+
+/*              end style section review               */
+
+/*              start style section articles               */
+.article{
+    position: relative;
+}
+.article div:nth-child(3){
+    position: absolute;
+    top: 1rem;
+    right: -8rem;
+    z-index: -10;
+}
+.article div:nth-child(4){
+    position: absolute;
+    top: 6rem;
+    left: -1rem;
+    z-index: -10;
+}
+.article-style{
+    width: 19.451rem;
+    border-radius: 1.1rem;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px #E5E9F6;
+}
+
+.article-style h3 , .article-style p, .article-style button{
+    margin: .5rem 1.5rem;
+}
+.article-style div{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.align-line_center{
+    align-self: center;
+}
+.none-border{
+    color: #458FF6;
+    background-color: #00000000;
+    text-align: left;
+    font-size: .95rem ;
+    cursor:pointer;
+}
+/*              end style section review               */
+/*              start style section footer             */
+footer{
+    background: linear-gradient(to top, #5A98F2 , #458FF6 );
+    padding-bottom: 3rem;
+}
+.footer-data{
+    color: #FFFFFF;
+}
+.footer-data section:first-child{
+    width: 40%;
+}
+.t-logo{
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.footer-data section:first-child div:only-of-type p {
+    font-size: 1.4rem;
+}
+
+.footer-data section:first-child p{
+    font-size: 1.1rem;
+} 
+ul li{
+    list-style: none;
+}
+
+.footer-data section ul li:nth-child(1){
+    font-size: 1.2rem;
+}
+
+ul li a{
+    color: #FFFFFF;
+}
+/*              end section footer                     */
+
